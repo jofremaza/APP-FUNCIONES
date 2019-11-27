@@ -103,7 +103,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(514, 257);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.label2);
@@ -113,6 +113,7 @@
             this.Controls.Add(this.button1);
             this.Name = "Factorial";
             this.Text = "Factorial";
+            this.Load += new System.EventHandler(this.Factorial_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

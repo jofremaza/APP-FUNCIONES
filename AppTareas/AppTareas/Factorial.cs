@@ -12,9 +12,11 @@ namespace AppTareas
 {
     public partial class Factorial : Form
     {
+        
         public Factorial()
         {
             InitializeComponent();
+            MessageBox.Show("HOLA MUNDO");
         }
 
         private void button3_Click(object sender, EventArgs e)
@@ -52,6 +54,11 @@ namespace AppTareas
                 cont = cont * i;
             }
             return cont;
+
+        }
+
+        private void Factorial_Load(object sender, EventArgs e)
+        {
 
         }
     }
